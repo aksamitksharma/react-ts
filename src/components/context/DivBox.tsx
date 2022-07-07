@@ -6,6 +6,7 @@ export const DivBox = () => {
     const theme = useContext(ThemeContext);
     const [schar, setschar] = useState("");
 
+    // react TS event type
     const handleChanhge = (e: React.FormEvent<HTMLInputElement>) => {
         setschar( e.currentTarget.value);
     }
